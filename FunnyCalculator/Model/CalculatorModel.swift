@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+class Calculator{
+    
+    var result: Decimal = 0.0
+    var firstValue: Decimal = 0.0
+    var secondValue: Decimal = 0.0
+    
+}

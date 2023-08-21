@@ -20,6 +20,12 @@ struct CalculatorView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!2 ")
+            Button("="){
+                
+            }
+            Button("+"){
+                
+            }
         }
         .padding()
     }

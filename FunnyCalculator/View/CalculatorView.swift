@@ -26,6 +26,9 @@ struct CalculatorView: View {
             Button("+"){
                 
             }
+            Button("-"){
+                
+            }
         }
         .padding()
     }

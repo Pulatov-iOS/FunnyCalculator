@@ -16,10 +16,6 @@ struct CalculatorView: View {
             Text(result)
                 .foregroundColor(.black)
                 .lineLimit(1)
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!2 ")
             Button("="){
                 
             }

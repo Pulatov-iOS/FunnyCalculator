@@ -13,9 +13,11 @@ struct CalculatorView: View {
     
     var body: some View {
         VStack {
-            Text(result)
-                .foregroundColor(.black)
-                .lineLimit(1)
+            VStack{
+                Text(result)
+                    .foregroundColor(.black)
+                    .lineLimit(1)
+            }
             Button("="){
                 
             }

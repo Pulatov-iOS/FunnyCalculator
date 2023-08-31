@@ -18,14 +18,16 @@ struct CalculatorView: View {
                     .foregroundColor(.black)
                     .lineLimit(1)
             }
-            Button("="){
-                
-            }
-            Button("+"){
-                
-            }
-            Button("-"){
-                
+            VStack{
+                Button("="){
+                    
+                }
+                Button("+"){
+                    
+                }
+                Button("-"){
+                    
+                }
             }
         }
         .padding()

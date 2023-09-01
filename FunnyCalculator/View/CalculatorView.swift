@@ -19,6 +19,11 @@ struct CalculatorView: View {
                     .lineLimit(1)
             }
             VStack{
+                HStack{
+                    Button(""){
+                        
+                    }
+                }
                 Button("="){
                     
                 }

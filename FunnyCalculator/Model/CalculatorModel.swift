@@ -15,6 +15,6 @@ class Calculator{
     var secondValue: Decimal = 0.0
     
     var currentAnimation: String = "basic"
-    
+    var usedAnimation: [String] = []
 
 }

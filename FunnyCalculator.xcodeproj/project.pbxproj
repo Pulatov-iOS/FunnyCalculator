@@ -15,6 +15,7 @@
 		118175BF2A8811F90069736F /* FunnyCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118175BE2A8811F90069736F /* FunnyCalculatorUITests.swift */; };
 		118175C12A8811F90069736F /* FunnyCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118175C02A8811F90069736F /* FunnyCalculatorUITestsLaunchTests.swift */; };
 		11AFDF062A8C0B720010DE8B /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AFDF052A8C0B720010DE8B /* CalculatorModel.swift */; };
+		11EBA5ED2AB0D93200C5E9B0 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EBA5EC2AB0D93200C5E9B0 /* CalculatorViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		118175BE2A8811F90069736F /* FunnyCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyCalculatorUITests.swift; sourceTree = "<group>"; };
 		118175C02A8811F90069736F /* FunnyCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		11AFDF052A8C0B720010DE8B /* CalculatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
+		11EBA5EC2AB0D93200C5E9B0 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 		118175CF2A8812E00069736F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				11EBA5EC2AB0D93200C5E9B0 /* CalculatorViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			files = (
 				11AFDF062A8C0B720010DE8B /* CalculatorModel.swift in Sources */,
 				118175A62A8811F60069736F /* CalculatorView.swift in Sources */,
+				11EBA5ED2AB0D93200C5E9B0 /* CalculatorViewModel.swift in Sources */,
 				118175A42A8811F60069736F /* FunnyCalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

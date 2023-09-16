@@ -32,6 +32,10 @@ struct CalculatorView: View {
         }
         .padding()
     }
+    
+    func currentAnimation(){
+        
+    }
 }
 
 #Preview {

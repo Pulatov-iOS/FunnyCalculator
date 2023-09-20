@@ -24,7 +24,9 @@ struct CalculatorView: View {
                         
                     }
                 }
-
+                VStack{
+                    
+                }
            
             }
         }

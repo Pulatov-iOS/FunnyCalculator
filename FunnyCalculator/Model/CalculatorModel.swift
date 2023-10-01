@@ -9,10 +9,10 @@ import Foundation
 
 class Calculator{
     
-    var result: Decimal = 0.0
-    var saveResult: Decimal = 0.0
-    var firstValue: Decimal = 0.0
-    var secondValue: Decimal = 0.0
+    private var result: Decimal = 0.0
+    private var saveResult: Decimal = 0.0
+    private var firstValue: Decimal = 0.0
+    private var secondValue: Decimal = 0.0
     
     var currentAnimation: String = "basic"
     var usedAnimation: [String] = []

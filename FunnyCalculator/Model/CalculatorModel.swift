@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Calculator{
+final class Calculator{
     
     private var result: Decimal = 0.0
     private var saveResult: Decimal = 0.0

@@ -33,7 +33,7 @@ struct CalculatorView: View {
         .padding()
     }
     
-    func currentAnimation(){
+    private func currentAnimation(){
         
     }
 }

@@ -16,7 +16,7 @@ struct CalculatorView: View {
             VStack{
                 Text(result)
                     .foregroundColor(.black)
-                    .lineLimit(1)
+                    
             }
             VStack{
                 HStack{
